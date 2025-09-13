@@ -107,7 +107,7 @@ sudo mkdir -p /backup
 
 **Вывод:**
 
-![image](/images/test1.jpg)
+![image](images/test1.jpg)
 
 **Проверка результата:**
 
@@ -115,7 +115,7 @@ sudo mkdir -p /backup
 ls /backup
 ```
 
-![image](/images/test2.jpg)
+![image](images/test2.jpg)
 
 #### Тест 2: Успешное создание резервной копии с указанной директорией
 
@@ -126,7 +126,7 @@ mkdir -p ~/my_backups
 
 **Вывод:**
 
-![image](/images/test3.jpg)
+![image](images/test3.jpg)
 
 **Проверка результата:**
 
@@ -136,7 +136,7 @@ ls ~/my_backups
 
 Вывод:
 
-![image](/images/test4.jpg)
+![image](images/test4.jpg)
 
 #### Тест 3: Запуск без аргументов
 
@@ -146,7 +146,7 @@ ls ~/my_backups
 
 **Вывод:**
 
-![image](/images/test5.jpg)
+![image](images/test5.jpg)
 
 #### Тест 4: Указание несуществующей исходной директории
 
@@ -156,7 +156,7 @@ ls ~/my_backups
 
 **Вывод:**
 
-![image](/images/test6.jpg)
+![image](images/test6.jpg)
 
 #### Тест 5: Указание несуществующей целевой директории
 
@@ -166,7 +166,7 @@ ls ~/my_backups
 
 **Вывод:**
 
-![image](/images/test7.jpg)
+![image](images/test7.jpg)
 
 ### 4. Проверка содержимого архива
 
@@ -178,7 +178,7 @@ tar -tzf /backup/backup_2025-09-13.tar.gz
 
 **Вывод:**
 
-![image](/images/test8.jpg)
+![image](images/test8.jpg)
 
 Это подтверждает, что архив содержит файлы из указанной директории.
 
